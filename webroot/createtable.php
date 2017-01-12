@@ -2,7 +2,7 @@
  // DB connection info
  
  try{
-     $conn = mysqli_connect("OPENSHIFT_MYSQL_DB_HOST","OPENSHIFT_MYSQL_DB_USERNAME","OPENSHIFT_MYSQL_DB_PASSWORD","test");
+     $conn = mysqli_connect("172.30.61.191","admin","root","test");
 
 
      $sql1 = "CREATE TABLE IF NOT EXISTS users (
