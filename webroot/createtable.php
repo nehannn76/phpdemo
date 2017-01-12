@@ -2,7 +2,7 @@
  // DB connection info
  
  try{
-     $conn = mysqli_connect("172.30.50.54","userYXI","xUqt0TkeOrFoCMwc","sampledb");
+     $conn = mysqli_connect("172.30.61.191","admin","root","test");
 
 
      $sql1 = "CREATE TABLE IF NOT EXISTS users (
