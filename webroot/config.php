@@ -1,0 +1,7 @@
+<?php
+   define('DB_SERVER', 'OPENSHIFT_MYSQL_DB_HOST');
+   define('DB_USERNAME', 'OPENSHIFT_MYSQL_DB_USERNAME');
+   define('DB_PASSWORD', 'OPENSHIFT_MYSQL_DB_PASSWORD');
+   define('DB_DATABASE','sampledb');
+   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE) ;
+?>
