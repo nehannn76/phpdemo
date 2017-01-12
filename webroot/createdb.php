@@ -2,12 +2,12 @@
  // DB connection info
  
 
-     $conn = mysqli_connect("172.30.50.54","userYXI","xUqt0TkeOrFoCMwc");
+     $conn = mysqli_connect("172.30.61.191","admin","root");
 	if($conn === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
-	 $sql = "CREATE DATABASE mydb";
+	 $sql = "CREATE DATABASE test";
 
 if(mysqli_query($conn, $sql)){
     echo "Database demo created successfully";
