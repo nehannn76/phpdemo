@@ -36,7 +36,7 @@ and password='$password'";
     }else{
 ?>
 <div class="form" style="border: 3px solid; margin-top: 100px;">
-<h1><center>Log In </center></h1>
+<h1><center>Log In To PHP </center></h1>
 <form action="" method="post" name="login">
 <table style=" margin-left: 30px; margin-bottom: 30px;">
 <tr>
