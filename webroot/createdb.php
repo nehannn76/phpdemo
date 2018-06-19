@@ -2,7 +2,7 @@
  // DB connection info
  
 
-     $conn = mysqli_connect("http://mysql-demo.apps-azurestack.amosdemo.io","admin","root");
+     $conn = mysqli_connect("172.17.0.15","admin","root");
 	if($conn === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
