@@ -2,7 +2,7 @@
  // DB connection info
  
 
-     $conn = mysqli_connect("172.17.0.15","admin","root");
+     $conn = mysqli_connect("10.129.0.57","admin","root");
 	if($conn === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
